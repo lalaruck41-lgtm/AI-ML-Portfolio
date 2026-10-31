@@ -1,16 +1,1 @@
-AI-ML-Portfolio/
-│
-├── README.md
-├── index.md
-│
-├── artifacts/
-│   │
-│   ├── 01-ai-development-timeline/
-│   │   ├── project-overview.md
-│   │   └── AI-Development-Timeline.pptx
-│   │
-│   └── 02-machine-learning-vs-deep-learning/
-│       ├── project-overview.md
-│       └── ML-vs-DL-Customer-Analytics.pdf
-│
-└── reflection.md
+
