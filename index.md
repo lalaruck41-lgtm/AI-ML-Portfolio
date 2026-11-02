@@ -13,7 +13,7 @@ My goal is to combine analytical thinking, business knowledge, and AI technologi
 ### 1. AI Development Timeline
 A group presentation exploring key milestones in the development of artificial intelligence from 1950 to 2005.
 
-[View project overview](artifacts/01-ai-development-timeline/)
+[View AI Development Timeline Project](https://github.com/lalaruck41-lgtm/AI-ML-Portfolio/blob/main/artifacts/01-ai-development-timeline/index.md)
 
 ### 2. Machine Learning vs. Deep Learning in Customer Analytics
 An individual project comparing traditional machine learning and deep learning through practical customer analytics applications, including customer churn prediction and consumer feedback analysis.
