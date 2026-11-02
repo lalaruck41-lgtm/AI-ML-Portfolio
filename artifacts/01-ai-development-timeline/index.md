@@ -1,4 +1,4 @@
 artifacts/
 └── 01-ai-development-timeline/
-    ├── project-overview.md
+    ├── index.md
     └── AI-Development-Timeline.pdf
