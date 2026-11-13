@@ -93,6 +93,35 @@ Understanding data heterogeneity, model evaluation, and responsible AI practices
 
 This project strengthened my understanding of practical machine learning challenges and the importance of critically evaluating AI systems before real-world deployment.
 
+## 8. Federated Learning Architecture
+
+The following diagram illustrates how two healthcare institutions can collaboratively train a shared machine learning model without directly exchanging raw patient data.
+
+```mermaid
+flowchart TB
+    A["Riverbend Hospital"] --> B["Local Training"]
+    C["Lakeside Medical Center"] --> D["Local Training"]
+
+    B --> E["Model Updates"]
+    D --> F["Model Updates"]
+
+    E --> G["Central Aggregation Server"]
+    F --> G
+
+    G --> H["Global Machine Learning Model"]
+
+    H --> I["Updated Model - Riverbend"]
+    H --> J["Updated Model - Lakeside"]
+
+    I --> A
+    J --> C
+
+    style G fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    style H fill:#dcfce7,stroke:#16a34a,color:#14532d
+```
+
+**Key Insight:** Each hospital retains its local patient data while sharing model updates with the aggregation server. The global model is then distributed back to participating institutions for further training.
+
 ---
 
 **Artifact Type:** Applied Machine Learning Case Study
